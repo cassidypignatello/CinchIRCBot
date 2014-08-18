@@ -8,7 +8,7 @@ $bot = Cinch::Bot.new do
     c.user = 'ruby005HelperBot'
     c.nick = 'ruby005HelperBot'
     c.realname = 'The ruby005 Helper Bot'
-    c.channels = ['ENV["CHANNEL"]']
+    c.channels = [ENV["CHANNEL"]]
   end
   
   on :message, "!hello" do |m|
