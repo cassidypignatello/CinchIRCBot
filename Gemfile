@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'cinch'
-gem 'cinch/plugins/imdb'
+gem 'cinch-imdb'
 
