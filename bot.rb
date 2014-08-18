@@ -1,7 +1,6 @@
 #! /usr/bin/env ruby
 
 require 'cinch'
-require 'cinch-imdb'
 
 $bot = Cinch::Bot.new do
   configure do |c|
@@ -11,7 +10,6 @@ $bot = Cinch::Bot.new do
     c.realname = 'The ruby005 Helper Bot'
     c.channels = [ENV["CHANNEL"]]
 
-    c.plugins.plugins = [Cinch::Plugins::IMDb] # optionally add more plugins
   end
   
   on :message, "!hello" do |m|
