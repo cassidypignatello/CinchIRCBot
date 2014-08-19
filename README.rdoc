@@ -4,7 +4,6 @@ This will be my first attempt at getting an IRC bot up and running.
 
 after deploying to heroku, to start the bot enter these commands
 
-```bash
-$ heroku scale web=0
-$ heroku scale bot=1
-```
+`$ heroku scale web=0`
+
+`$ heroku scale bot=1`
